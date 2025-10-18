@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics.",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+    "image": "/placeholder.svg",
+    "github": "https://github.com",
+    "live": "https://example.com"
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "description": "Collaborative task management tool with drag-and-drop interface, real-time updates, and team chat.",
+    "technologies": ["React", "Firebase", "Tailwind CSS"],
+    "image": "/placeholder.svg",
+    "github": "https://github.com",
+    "live": "https://example.com"
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "Beautiful weather app with location-based forecasts, interactive maps, and historical data visualization.",
+    "technologies": ["React", "TypeScript", "OpenWeather API", "Chart.js"],
+    "image": "/placeholder.svg",
+    "github": "https://github.com",
+    "live": "https://example.com"
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Generator",
+    "description": "SaaS platform that helps developers create beautiful portfolios with customizable themes and templates.",
+    "technologies": ["Next.js", "PostgreSQL", "Prisma", "Vercel"],
+    "image": "/placeholder.svg",
+    "github": "https://github.com",
+    "live": "https://example.com"
+  }
+]
