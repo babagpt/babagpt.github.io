@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Alexie Smith",
+    "title": "Full Stack Developer",
+    "description": "A passionate full-stack developer focused on building secure, modern, and scalable web applications. I specialize in React, Node.js, and TypeScript, with a strong focus on simplicity and reliability.",
+    "cta": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "sections": [
+      "Hey, I'm Alexie Smith — a self-taught full-stack developer who enjoys turning ideas into functional, secure, and well-designed software. I started small, coding entirely on my Android phone using Termux, and over time, that hands-on learning shaped how I approach building reliable systems today.",
+      "My first serious build was Secure File Server, a Node.js backend that helped me understand authentication, data flow, and modular structure. From there, I created Link Share — a complete file-sharing app with expiring links and an admin dashboard — all developed and tested through Termux and GitHub Codespaces.",
+      "Later came Marketplace V1.10, my take on a product listing and order management system, followed by QuickBill Desk, a lightweight offline invoicing tool for small businesses. Each project taught me something new — from scaling backend APIs to improving frontend design and user flow.",
+      "Working inside limited but creative environments like Termux and Codespaces taught me to value simplicity, efficiency, and adaptability. I love building tools that make everyday tasks easier, secure, and accessible — no matter where they run.",
+      "When I'm not coding, I'm usually exploring new technologies, refining my existing projects, or improving my workflow setups. I believe every challenge is an opportunity to learn — and every small step in code adds up to something great."
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Whether you have a project in mind, a question, or just want to say hello — feel free to reach out! I'm always open to connecting with new people and ideas.",
+    "availability": "Currently available for freelance work"
+  }
+}
