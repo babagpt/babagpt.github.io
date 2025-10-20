@@ -1,38 +1,60 @@
-[
-  {
-    "id": 1,
-    "title": "E-Commerce Platform",
-    "description": "A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics.",
-    "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
-    "image": "/placeholder.svg",
-    "github": "https://github.com",
-    "live": "https://example.com"
-  },
-  {
-    "id": 2,
-    "title": "Task Management App",
-    "description": "Collaborative task management tool with drag-and-drop interface, real-time updates, and team chat.",
-    "technologies": ["React", "Firebase", "Tailwind CSS"],
-    "image": "/placeholder.svg",
-    "github": "https://github.com",
-    "live": "https://example.com"
-  },
-  {
-    "id": 3,
-    "title": "Weather Dashboard",
-    "description": "Beautiful weather app with location-based forecasts, interactive maps, and historical data visualization.",
-    "technologies": ["React", "TypeScript", "OpenWeather API", "Chart.js"],
-    "image": "/placeholder.svg",
-    "github": "https://github.com",
-    "live": "https://example.com"
-  },
-  {
-    "id": 4,
-    "title": "Portfolio Generator",
-    "description": "SaaS platform that helps developers create beautiful portfolios with customizable themes and templates.",
-    "technologies": ["Next.js", "PostgreSQL", "Prisma", "Vercel"],
-    "image": "/placeholder.svg",
-    "github": "https://github.com",
-    "live": "https://example.com"
-  }
-]
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Link Share",
+      "shortDescription": "Secure file-sharing platform with expiring links",
+      "description": "A full-stack secure file-sharing platform with expiring links, encrypted uploads, and user authentication. Designed and tested fully within Termux and GitHub Codespaces, Link Share combines a clean frontend with a modular Express backend to provide a reliable self-hosted sharing experience.",
+      "technologies": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Mongoose", "JWT", "Multer", "Redis"],
+      "image": "/images/projects/link-share.jpg",
+      "placeholder": "/placeholder.svg",
+      "github": "https://github.com/babaaslex/link-share",
+      "live": "https://babagpt.github.io/link-share",
+      "featured": true,
+      "category": "Full Stack",
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "title": "Marketplace V1.10",
+      "shortDescription": "Modern marketplace application with product listings",
+      "description": "A modern marketplace application built to support product listings, order flows, and seller management. Developed from scratch using Node.js and React, this version focused on better modular routing, product storage logic, and mobile-friendly UI testing within GitHub Codespaces and Termux.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "TypeScript"],
+      "image": "/images/projects/marketplace.jpg",
+      "placeholder": "/placeholder.svg",
+      "github": "https://github.com/babaaslex/marketplace-v1-10",
+      "live": "https://babagpt.github.io/marketplace-v1-10",
+      "featured": true,
+      "category": "Full Stack",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "title": "QuickBill Desk",
+      "shortDescription": "Lightweight billing and invoicing desktop app",
+      "description": "A lightweight billing and invoicing desktop app made for offline use. Designed to run easily in low-resource environments, QuickBill Desk allows quick invoice generation, customer tracking, and export features — reflecting the move from backend systems to full user-facing applications.",
+      "technologies": ["Electron", "React", "Node.js", "SQLite", "Tailwind CSS"],
+      "image": "/images/projects/quickbill.jpg",
+      "placeholder": "/placeholder.svg",
+      "github": "https://github.com/babaaslex/quickbill-desk",
+      "live": "https://babagpt.github.io/quickbill-desk",
+      "featured": true,
+      "category": "Desktop App",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "title": "Secure File Server V2.2.0",
+      "shortDescription": "Production-tested Node.js file server",
+      "description": "A stable, production-tested Node.js server built to securely handle file uploads and downloads. This project refined your earlier architectures into a clean, modular backend — complete with authentication, audit logging, and configuration scripts — all built and tested on Android through Termux and Codespaces.",
+      "technologies": ["Node.js", "Express", "MongoDB", "Mongoose", "Bcrypt", "JWT", "Docker", "Dotenv"],
+      "image": "/images/projects/file-server.jpg",
+      "placeholder": "/placeholder.svg",
+      "github": "https://github.com/babaaslex/secure-file-server",
+      "live": "https://babagpt.github.io/secure-file-server",
+      "featured": true,
+      "category": "Backend",
+      "status": "Completed"
+    }
+  ]
+}
